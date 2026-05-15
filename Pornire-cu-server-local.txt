@@ -1,0 +1,8 @@
+cd ~/Desktop/Harta-Huedin
+python3 -m http.server 8000
+
+
+_____
+
+
+http://localhost:8000

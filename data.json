@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Biserica Reformată",
+    "category": "biserici",
+    "lat": 46.8698,
+    "lng": 23.0399,
+    "year": 1300,
+    "address": "Centru Huedin",
+
+    "images": [
+      "poze/br1.webp",
+      "poze/br2.webp",
+      "poze/br3.webp"
+    ],
+
+    "description":
+    "Una dintre cele mai importante clădiri istorice din Huedin."
+  },
+
+  {
+    "title": "Gara Huedin",
+    "category": "cladiri",
+    "lat": 46.8682,
+    "lng": 23.0440,
+    "year": 1870,
+    "address": "Strada Gării",
+
+    "images": [
+      "poze/gr1.webp",
+      "poze/gr2.webp",
+      "poze/gr3.webp"
+    ],
+
+    "description":
+    "Clădire importantă în dezvoltarea transportului feroviar."
+  }
+]

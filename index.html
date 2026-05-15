@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color"
+    content="#111827">
+
+    <title>Harta Istorică Huedin</title>
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <h1>Harta Istorică Huedin</h1>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Caută obiectiv..."
+        >
+
+        <select id="categorySelect">
+
+            <option value="all">
+                Toate categoriile
+            </option>
+
+            <option value="biserici">
+                Biserici
+            </option>
+
+            <option value="monumente">
+                Monumente
+            </option>
+
+            <option value="cladiri">
+                Clădiri
+            </option>
+
+        </select>
+
+        <label for="yearRange">
+    Perioadă istorică
+</label>
+
+<input
+    type="range"
+    id="yearRange"
+    min="1200"
+    max="2026"
+    value="2026"
+>
+
+<p id="yearLabel">
+    Până în anul: 2026
+</p>
+
+        <div id="locationsList"></div>
+
+    </div>
+
+    <div id="map"></div>
+
+    <script
+    src="https://unpkg.com/leaflet/dist/leaflet.js">
+    </script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
